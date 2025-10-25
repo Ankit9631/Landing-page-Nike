@@ -1,0 +1,147 @@
+*{
+margin: 0;
+padding:0;
+box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    background-color:rgb(183, 193, 193);
+    position: relative;
+}
+#nav{
+    width: 100%;
+    height:  100px;
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+ padding: 0 80px;
+}
+#nav img{
+    height: 35px;
+    margin-right: 160px;
+}
+#nav-part1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#nav-part1 h4{
+    margin-right: 60px;
+    font-size: 17px;
+    font-weight: 600;
+}
+#nav-part1 :hover{
+  transform: translateY(-2px);
+  cursor: pointer;
+}
+#nav-part2 i{
+    margin-right: 70px;
+    font-size: 21px;
+    font-weight: 500;
+}
+#nav-part2:hover{
+    cursor: pointer;
+}
+#content{
+    width: 100%;
+    height:calc(100% - 110px);
+  display: flex;
+}
+#left{
+    height: 100%;
+    width: 38%;
+padding: 70px 120px;
+}
+#left h5{
+    font-size: 15px;
+    color:rgb(79, 79, 79);
+    margin-bottom: 25px;
+}
+#left h1{
+    font-size: 50px;
+    text-transform: uppercase;
+    line-height: 50px;
+    margin-bottom: 30px;
+}
+#left p{
+    font-size: 14px;
+    margin-bottom: 50px;
+}
+#left button{
+    background-color: black;
+    color: white;
+    font-size: 12px;
+    text-transform: uppercase;
+    padding: 13px 26px;
+    border-radius: 50px;
+    border-top-left-radius: 0px;
+}
+#left button:hover{
+     transform: translateY(-2px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.399);
+  cursor: pointer;
+}
+
+
+#right {
+  width: 62%;
+  height: 100%;
+  background-color: rgb(183, 193, 193);
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 0 40px;
+}
+
+.card {
+  width: 280px;
+  height: 420px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  overflow: hidden;
+  transition: all 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+  cursor: pointer;
+}
+
+.card img {
+  width: 85%;
+  margin-top: 25px;
+}
+
+.info {
+  width: 100%;
+  text-align: center;
+  padding: 15px 0;
+}
+
+.info h5 {
+  background-color: black;
+  color: white;
+  display: inline-block;
+  padding: 4px 10px;
+  border-radius: 4px;
+  font-size: 12px;
+  margin-bottom: 6px;
+}
+
+.info h4 {
+  font-size: 15px;
+  color: rgb(50, 50, 50);
+  font-weight: 600;
+}
+
